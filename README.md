@@ -3,6 +3,7 @@
 This is a repository designed to be a codebase for a variety of algorithms.
 
 ```
+<pre>
 +---ArraysAndLists
 |   +---Advanced
 |   |   \---BinarySearchLinkedList
@@ -10,7 +11,7 @@ This is a repository designed to be a codebase for a variety of algorithms.
 |       +---CircularBuffer
 |       +---LinkedList
 |       +---Queue
-|       \---Stack
+|       \---<b>Stack</b>
 +---Number Theoretic
 |   +---Advanced
 |   |   +---MillerRabin
@@ -36,4 +37,5 @@ This is a repository designed to be a codebase for a variety of algorithms.
         +---FisherYates
         +---Insertionsort
         \---Selectionsort
+<pre>
 ```
