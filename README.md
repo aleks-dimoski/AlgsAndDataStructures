@@ -13,11 +13,11 @@ This is a repository designed to be a codebase for a variety of algorithms.
 |       \---Stack
 +---Number Theoretic
 |   +---Advanced
-|   |   +---~~MillerRabin~~
-|   |   \---~~RSA_Encryption~~
+|   |   +---MillerRabin
+|   |   \---RSA_Encryption
 |   \---Basic
 |       +---Eratosthenes
-|       +---~~Fermat~~
+|       +---Fermat
 |       +---Fibonacci
 |       +---Multiples
 |       \---PowerMod
