@@ -2,8 +2,7 @@
 
 This is a repository designed to be a codebase for a variety of algorithms.
 
-```
-<pre>
+<pre><code>
 +---ArraysAndLists
 |   +---Advanced
 |   |   \---BinarySearchLinkedList
@@ -37,5 +36,4 @@ This is a repository designed to be a codebase for a variety of algorithms.
         +---FisherYates
         +---Insertionsort
         \---Selectionsort
-<pre>
-```
+<pre><code>
