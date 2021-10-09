@@ -5,9 +5,9 @@ This is a repository designed to be a codebase for a variety of algorithms.
 <pre><code>
 +---ArraysAndLists
 |   +---Advanced
-|   |   \---BinarySearchLinkedList
+|   |   \---<s>BinarySearchLinkedList<s>
 |   \---Basic
-|       +---CircularBuffer
+|       +---~~CircularBuffer~~
 |       +---LinkedList
 |       +---Queue
 |       \---<b>Stack</b>
