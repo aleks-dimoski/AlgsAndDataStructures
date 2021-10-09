@@ -5,35 +5,35 @@ This is a repository designed to be a codebase for a variety of algorithms.
 <pre><code>
 +---ArraysAndLists
 |   +---Advanced
-|   |   \---<s>BinarySearchLinkedList<s>
+|   |   \---<s>BinarySearchLinkedList</s>
 |   \---Basic
-|       +---~~CircularBuffer~~
-|       +---LinkedList
-|       +---Queue
+|       +---<s>CircularBuffer</s>
+|       +---<s>LinkedList</s>
+|       +---<s>Queue</s>
 |       \---<b>Stack</b>
 +---Number Theoretic
 |   +---Advanced
-|   |   +---MillerRabin
-|   |   \---RSA_Encryption
+|   |   +---<s>MillerRabin</s>
+|   |   \---<s>RSA_Encryption</s>
 |   \---Basic
-|       +---Eratosthenes
-|       +---Fermat
-|       +---Fibonacci
-|       +---Multiples
-|       \---PowerMod
+|       +---<b>Eratosthenes</b>
+|       +---<s>Fermat</s>
+|       +---<b>Fibonacci</b>
+|       +---<b>Multiples</b>
+|       \---<b>PowerMod</b>
 +---Searching
 |   +---Advanced
-|   |   \---GoldenMean
+|   |   \---<s>GoldenMean</s>
 |   \---Basic
-|       \---BinarySearch
+|       \---<s>BinarySearch</s>
 \---Sorting
     +---Advanced
-    |   +---Heapsort
-    |   +---Mergesort
-    |   \---Quicksort
+    |   +---<s>Heapsort</s>
+    |   +---<s>Mergesort</s>
+    |   \---<s>Quicksort</s>
     \---Basic
-        +---Bubblesort
-        +---FisherYates
-        +---Insertionsort
-        \---Selectionsort
+        +---<b>Bubblesort</b>
+        +---<s>FisherYates</s>
+        +---<s>Insertionsort</s>
+        \---<s>Selectionsort</s>
 <pre><code>
