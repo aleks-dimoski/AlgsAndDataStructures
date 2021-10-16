@@ -8,7 +8,7 @@ This is a repository designed to be a codebase for a variety of algorithms.
 |   |   \---<s>BinarySearchLinkedList</s>
 |   \---Basic
 |       +---<s>CircularBuffer</s>
-|       +---<s>LinkedList</s>
+|       +---<b>LinkedList</b>
 |       +---<s>Queue</s>
 |       \---<b>Stack</b>
 +---Number Theoretic
