@@ -18,7 +18,7 @@ This is a repository designed to be a codebase for a variety of algorithms.
 |   |   \---<s>RSA_Encryption</s>
 |   \---Basic
 |       +---<b>Eratosthenes</b>
-|       +---<s>Fermat</s>
+|       +---<b>Fermat</b>
 |       +---<b>Fibonacci</b>
 |       +---<b>Multiples</b>
 |       \---<b>PowerMod</b>
