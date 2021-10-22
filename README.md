@@ -9,6 +9,7 @@ This is a repository designed to be a codebase for a variety of algorithms.
 |   \---Basic
 |       +---<s>CircularBuffer</s>
 |       +---<b>LinkedList</b>
+|       +---<b>DoubleLinkedList</b>
 |       +---<s>Queue</s>
 |       \---<b>Stack</b>
 +---Number Theoretic
