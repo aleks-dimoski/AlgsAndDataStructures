@@ -31,7 +31,7 @@ This is a repository designed to be a codebase for a variety of algorithms.
     +---Advanced
     |   +---<s>Heapsort</s>
     |   +---<s>Mergesort</s>
-    |   \---<s>Quicksort</s>
+    |   \---<b>Quicksort</b>
     \---Basic
         +---<b>Bubblesort</b>
         +---<s>FisherYates</s>
