@@ -12,6 +12,13 @@ This is a repository designed to be a codebase for a variety of algorithms.
 |       +---<b>DoubleLinkedList</b>
 |       +---<s>Queue</s>
 |       \---<b>Stack</b>
++---Hash
+|   +---Advanced
+|   |   +---<s>LinearChaining</s>
+|   |   \---<s>PerfectHashing</s>
+|   \---Basic
+|       +---<s>LinearProbing</s>
+|       \---<s>QuadraticProbing</s>
 +---Number Theoretic
 |   +---Advanced
 |   |   +---<s>MillerRabin</s>
@@ -27,14 +34,17 @@ This is a repository designed to be a codebase for a variety of algorithms.
 |   |   \---<s>GoldenMean</s>
 |   \---Basic
 |       \---<s>BinarySearch</s>
-\---Sorting
++---Sorting
+|   +---Advanced
+|   |   +---<s>Heapsort</s>
+|   |   +---<s>Mergesort</s>
+|   |   \---<b>Quicksort</b>
+|   \---Basic
+|       +---<b>Bubblesort</b>
+|       +---<s>FisherYates</s>
+|       +---<s>Insertionsort</s>
+|       \---<s>Selectionsort</s>
+\---Trees
     +---Advanced
-    |   +---<s>Heapsort</s>
-    |   +---<s>Mergesort</s>
-    |   \---<s>Quicksort</s>
     \---Basic
-        +---<b>Bubblesort</b>
-        +---<s>FisherYates</s>
-        +---<s>Insertionsort</s>
-        \---<s>Selectionsort</s>
 <pre><code>
