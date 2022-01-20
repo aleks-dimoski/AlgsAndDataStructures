@@ -44,7 +44,31 @@ This is a repository designed to be a codebase for a variety of algorithms.
 |       +---<s>FisherYates</s>
 |       +---<s>Insertionsort</s>
 |       \---<s>Selectionsort</s>
-\---Trees
++---Trees
+|   +---Advanced
+|   \---Basic
++---Backtracking
+|   +---Advanced
+|   |   +---<s>Magic Squares</s>
+|   |   \---<s>Sudoku</s>
+|   \---Basic
+|       \---<s>Boggle</s>
++---Graph Theory
+|   +---Advanced
+|   |   +---<s>Travelling Salesman</s>
+|   |   +---<s>Djikstra</s>
+|   |   \---<s>Prim & Kruskal</s>
+|   \---Basic
+|       +---<s>Floyd-Warshall</s>
+|       +---<s>Depth First Search</s>
+|       +---<s>Breadth First Search</s>
+|       +---<b>Compressed Sparse Row</b>
+|       +---<s>Matrix Representation</s>
+|       \---<b>Adjacency List</b>
+\---Strings
     +---Advanced
+    |   +---<s>Longest Common Subsequence</s>
+    |   \---<s>Boyer-Moore</s>
     \---Basic
+        \---<s>Edit Distance</s>
 <pre><code>
