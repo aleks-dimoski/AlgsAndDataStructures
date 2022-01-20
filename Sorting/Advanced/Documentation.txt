@@ -1,0 +1,36 @@
+Quicksort:
+  Complexity: O(n)
+  Details: Consists of a 'partition' and a 'quicksort' section. The partition part of the code
+    works by selecting a pivot value (usually from a random index of the array) and then
+    finds and swaps any pair of values at opposite ends of the array which should be on the
+    opposite end of the array. For example, an array 8 4 3 9 with a pivot of 4 would examine
+    the first and last elements (8 and 9). 8 is larger than the pivot and is on the left side,
+    so the algorithm checks if the right element is smaller. 9 is larger than the pivot, so
+    we iterate left by one to check that value. 3 is less than the pivot, so we swap the two
+    values, resulting in the array 3 4 8 9. The algorithm continues by sorting the sub-arrays
+    to the left and right of the pivot; in this case, it would sort the arrays 3 4 and 8 9
+    and would swap them to the correct order. Each of these operations takes O(log(n)), but
+    is done for each half, which results in an overall complexity of O(n). Something to note
+    is that the algorithm (as is) only works for distinct/unique values.
+
+Mergesort:
+  Complexity: O(n*log(n))
+  Details: This has a special use case for when data is larger than
+    physical RAM. This algorithm works by sorting every two elements and then merging them
+    into larger and larger arrays. For example, 8 7 6 5 4 3 2 1 would be sorted into the
+    array [7 8] [5 6] [3 4] [1 2]. Each segment of 2 elements would be combined into one
+    of 4 elements, by adding each element to the new array in order. Here, 5 < 7, so the
+    first element is 5. 6 < 7, so the next element is 6. The rest of the array is added,
+    resulting in [5 6 7 8] [1 2 3 4]. These are merged into 1 2 3 4 5 6 7 8.
+
+Heapsort:
+  Complexity: O(n+nlog(n)) = O(nlog(n))
+  Details: This algorithm is based on a few different principles. First, a max heap is one in
+    which the maximum value is the highest value. We want to have a heap in which the entire
+    tree is a max heap. Thus, we need a buildmaxheap() function, which is O(n) and is done
+    once. Then, we want a heapify() function, which converts a mostly max heap tree into a
+    true max heap.
+    We then start with an array, make it into a max heap, and then begin sorting the elements.
+    We swap the maximum/top element in the heap with the end of the unsorted part of the
+    array. The heap is then heapified, so that the next maximum element is first. This is
+    repeated until the array is sorted.

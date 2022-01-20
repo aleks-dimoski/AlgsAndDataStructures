@@ -4,11 +4,23 @@
 |   \---Basic
 |       +---CircularBuffer
 |       +---LinkedList
+|       |       DoubleLinkedList.cc
+|       |       DoubleLinkedList.exe
+|       |       LinkedList.cc
+|       |       LinkedList.exe
+|       |       
 |       +---Queue
 |       \---Stack
 |               Stack.cc
 |               Stack.exe
-|
+|               
++---Hash
+|   +---Advanced
+|   |   +---LinearChaining
+|   |   \---PerfectHashing
+|   \---Basic
+|       +---LinearProbing
+|       \---QuadraticProbing
 +---Number Theoretic
 |   +---Advanced
 |   |   +---MillerRabin
@@ -16,35 +28,47 @@
 |   \---Basic
 |       +---Eratosthenes
 |       |       eratosthenes.java
-|       |
+|       |       
 |       +---Fermat
+|       |       Fermat.cc
+|       |       Fermat.exe
+|       |       
 |       +---Fibonacci
 |       |       Fibonacci.cc
 |       |       Fibonacci.exe
-|       |
+|       |       
 |       +---Multiples
 |       |       GCD.cc
 |       |       GCD.exe
 |       |       LCM.cc
 |       |       LCM.exe
-|       |
+|       |       
 |       \---PowerMod
 |               powerMod.cc
 |               powerMod.exe
 |               powerMode.exe
-|
+|               
 +---Searching
 |   +---Advanced
 |   |   \---GoldenMean
 |   \---Basic
 |       \---BinarySearch
-\---Sorting
++---Sorting
+|   +---Advanced
+|   |   +---Heapsort
+|   |   +---Mergesort
+|   |   \---Quicksort
+|   |           QuickSort.cc
+|   |           QuickSort.exe
+|   |           
+|   \---Basic
+|       +---Bubblesort
+|       |       bubblesort.cc
+|       |       bubblesort.exe
+|       |       
+|       +---FisherYates
+|       +---Insertionsort
+|       \---Selectionsort
+\---Trees
     +---Advanced
-    |   +---Heapsort
-    |   +---Mergesort
-    |   \---Quicksort
     \---Basic
-        +---Bubblesort
-        +---FisherYates
-        +---Insertionsort
-        \---Selectionsort

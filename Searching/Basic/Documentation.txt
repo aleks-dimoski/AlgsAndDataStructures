@@ -1,0 +1,8 @@
+BinarySearch:
+  Complexity: O(log(n))
+  Details: I love this algorithm. Personal favorite of mine. It is simple and elegant. The
+    goal is to find an element in an ordered list. This is done by checking if the value
+    being searched for is larger or smaller than the middle element. If the value is larger
+    than the middle element, for example, then this is performed again on the right half of
+    the list. The list is traversed piecewise in this manner, with the part of the array
+    being searched is cut in half with each iteration.

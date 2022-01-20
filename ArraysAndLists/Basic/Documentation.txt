@@ -1,0 +1,19 @@
+LinkedList: The LinkedList is a datatype built off of Nodes, each of which has a value or
+piece of data as well as a pointer to the next node. An extension of this is the Doubly
+Linked List, which also has a pointer to the previous node. This data type allows for easy
+growth and shortening, since there is no additional memory allocation or copying required.
+
+CircularBuffer: A special type of LL in which the last Node in the sequence has it's next
+Node as the first node in the list, resulting in a circle. Special considerations need to be
+taken in regards to what the 'first' element in the list is (ie if there is a 'head' node)
+as well as how sorting, etc. would work in this kind of data type. Much of this would need
+to be determined by the functionality/purpose of the list.
+
+Queue: A type of LL which only has 'push' and 'pop' functions (alternatively, 'enqueue' and
+'dequeue'). This is a First in, First out (FIFO) data structure where each element is added
+behind the previous one, and elements are removed starting with the elements in the front.
+This is similar to a line at a restaurant, etc..
+
+Stack: A type of LL which has only 'push' and 'pop' functions. In contrast to the Queue, it
+is Last in, First out. It is similar to a stack of plates; each plate is added on top of the
+next, and then removed first.

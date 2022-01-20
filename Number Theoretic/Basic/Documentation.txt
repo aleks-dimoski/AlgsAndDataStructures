@@ -1,0 +1,35 @@
+Eratosthenes:
+  Complexity: O(n*log(log(n)))
+  Details: The purpose of this algorithm is to generate a list of numbers that are prime and
+    those that are not. This is done by making a boolean array up to 'n' with all values set
+    to prime, and starting at 2. First, since 2 is True, every value in the sequence 2^2,
+    2^2+2, 2^2+4, ..., is set to False to indicate they are not prime. This is repeated for
+    3 (set 3^2, 3^2+3, ... to False). This is not done for 4, since the value is False. This
+    is repeated from 2->sqrt(n). The sqrt() and the numbers squared is due to the fact that
+    all values less than i^2 would have already been set to False by the smaller values of i.
+
+Fermat:
+  Complexity: O(p)
+  Details: If the value a^(p-1)%p==1, then p is probably prime. This is computed using the
+    PowerMod algorithm. It is not very accurate when p is small, but for very large p the
+    probability of getting a wrong answer is very small.
+
+Fibonacci:
+  Complexity: O(n)
+  Details: This algorithm computes the nth value in the fibonacci sequence. This is done
+    simply with a loop that adds the previous two elements and then assigns the smaller of
+    the previous two values the new value.
+
+Multiples:
+  GCD:
+    Complexity: O(log(n))
+    Details: This algorithm (Euclid's Algorithm) utilizes the properties of gcd to find
+      the solution with the % operator.
+  LCM:
+    Complexity: O(log(n))
+    Details: This algorithm utilizes the GCD algorithm to easily calculate the LCM.
+
+PowerMod:
+  Complexity: O(exp)
+  Details: The goal of this algorithm is to calculate the power of one value to another
+    modulo another value. It is used in Fermat.

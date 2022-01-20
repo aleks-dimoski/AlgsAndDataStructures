@@ -1,0 +1,25 @@
+Bubblesort:
+  Complexity: O(n^2)
+  Details: Bubblesort operates with a double for loop, where each element is compared to the
+    one before it, and is then swapped with the previous value. In this is done for all
+    elements, resulting in each value 'bubbling' to the correct position, being swapped
+    with each element until it is in the correct position. The list is sorted from 0->i
+    and unsorted from i->end of the list.
+
+Insertionsort:
+  Complexity: O(n^2)
+  Details: The idea with this one is to intelligently insert each value into the correct
+    location in the sorted 0->i section of the list. This could be improved by using a
+    BinarySearch algorithm to find the ideal position to insert the new value, which would
+    bring the complexity down to O(n*log(n)).
+
+Selectionsort:
+  Complexity: O(n^2)
+  Details: This algorithm finds the largest element and swaps it with the last element in
+    the array, and repeats this until the entire array is sorted.
+
+FisherYates:
+  Complexity: O(n)
+  Details: This is different than the other algorithms in that it is an 'unsorting' algorithm.
+    It works by simply swapping each element with a random element from the rest of the list;
+    ie, from i=0->n, each element a[i] is swapped randomly with an element from i->n.
