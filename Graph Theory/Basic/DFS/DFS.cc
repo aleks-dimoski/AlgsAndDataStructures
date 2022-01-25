@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <stack>
 #include <algorithm>
 
 using namespace std;
@@ -70,6 +71,14 @@ public:
     size--;
     return hold;
   }
+  uint32_t operator[](uint32_t a) {
+    if(a > size || a < 0) { throw invalid_argument("Out-Of-Bounds Error"); }
+    Node* p = head;
+    for(uint32_t i = 0; i < a; i++) {
+      p = p->next;
+    }
+    return p->val;
+  }
   bool contains(uint32_t v) {
     if(head == nullptr) { return false; }
     Node* p = head;
@@ -93,7 +102,7 @@ public:
 };
 
 
-// Beginning of actual adjacency list class
+// Beginning of adjacency list class for BFS to operate on
 class adjacencyList {
 private:
   vector<LinkedList*> start;  
@@ -135,11 +144,31 @@ public:
     }
     return s;
   }
-  
+
+  // DFS Function
+  void DFS(uint32_t v) {
+    vector<bool> scheduled;
+    for(uint32_t i = 0; i < start.size(); i++) { scheduled.push_back(false); }
+    stack<uint32_t> upNext;
+    upNext.push(v);
+    scheduled[v] = true;
+    while(!upNext.empty()) {
+      v = upNext.top();
+      upNext.pop();
+      cout << v << ' ';
+      for(uint32_t i = 0; i < start[v]->len(); i++) {
+        uint32_t v2 = (*start[v])[i];
+        if(!scheduled[v2]) {
+          upNext.push(v2);
+          scheduled[v2] = true;
+        }
+      }
+    }
+  }
 };
 
 int main() {
-  adjacencyList g(15);
+  adjacencyList g(7);
   cout << g << '\n';
+  g.DFS(0);
 }
-
