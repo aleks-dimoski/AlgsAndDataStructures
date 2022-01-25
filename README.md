@@ -60,8 +60,8 @@ This is a repository designed to be a codebase for a variety of algorithms.
 |   |   \---<s>Prim & Kruskal</s>
 |   \---Basic
 |       +---<s>Floyd-Warshall</s>
-|       +---<s>Depth First Search</s>
-|       +---<s>Breadth First Search</s>
+|       +---<b>Depth First Search</b>
+|       +---<b>Breadth First Search</b>
 |       +---<b>Compressed Sparse Row</b>
 |       +---<s>Matrix Representation</s>
 |       \---<b>Adjacency List</b>
