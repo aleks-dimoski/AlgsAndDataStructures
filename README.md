@@ -59,7 +59,7 @@ This is a repository designed to be a codebase for a variety of algorithms.
 |   |   +---<s>Djikstra</s>
 |   |   \---<s>Prim & Kruskal</s>
 |   \---Basic
-|       +---<s>Floyd-Warshall</s>
+|       +---<b>Floyd-Warshall</b>
 |       +---<b>Depth First Search</b>
 |       +---<b>Breadth First Search</b>
 |       +---<b>Compressed Sparse Row</b>
