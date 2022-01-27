@@ -1,21 +1,23 @@
 #include <iostream>
 
-class Node {
-public:
-  int32_t val;
-  Node* next;
-  Node* prev;
-  Node(int32_t val=0, Node* next=nullptr, Node* prev=nullptr) : val(val), next(next), prev(prev) {}
-  void deleteChain() {
-    if(next != nullptr)
-      next->deleteChain();
-    delete next;
-  }
-};
-  
+
+template <class T>
 class DoubleLinkedList {
 private:
   uint32_t length;
+  
+  class Node {
+  public:
+    T val;
+    Node* next;
+    Node* prev;
+    Node(T val, Node* next=nullptr, Node* prev=nullptr) : val(val), next(next), prev(prev) {}
+    void deleteChain() {
+      if(next != nullptr)
+        next->deleteChain();
+      delete next;
+    }
+  };
 
 public:
   Node* head;
@@ -27,7 +29,7 @@ public:
     delete head;
   }
 
-  void addStart(int32_t val) {
+  void addStart(T val) {
     length++;
     if(head != nullptr) {
       head->prev = new Node(val, head, nullptr);
@@ -38,7 +40,7 @@ public:
     }
   }
 
-  void addEnd(int32_t val) {
+  void addEnd(T val) {
     length++;
     if(head != nullptr) {
       tail->next = new Node(val, nullptr, tail);
@@ -49,8 +51,8 @@ public:
     }
   }
 
-  int32_t removeStart() {
-    int32_t hold = -1;
+  T removeStart() {
+    T hold;
     if(head == nullptr) {
       std::cout << "\nError. LinkedList is empty.\n";
       return -1;
@@ -68,8 +70,8 @@ public:
     return hold;
   }
 
-  int32_t removeEnd() {
-    int32_t hold = -1;
+  T removeEnd() {
+    T hold;
     if(head == nullptr) {
       std::cout << "\nError. LinkedList is empty.\n";
       return -1;
@@ -95,7 +97,7 @@ public:
 };
 
 int main() {
-    DoubleLinkedList mylist;
+    DoubleLinkedList<uint32_t> mylist;
 
     for (int i = 0; i < 10; i++)
       mylist.addEnd(i);
