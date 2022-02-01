@@ -68,7 +68,7 @@ This is a repository designed to be a codebase for a variety of algorithms.
 \---Strings
     +---Advanced
     |   +---<s>Longest Common Subsequence</s>
-    |   \---<s>Boyer-Moore</s>
+    |   \---<b>Boyer-Moore</b>
     \---Basic
         \---<s>Edit Distance</s>
 <pre><code>
