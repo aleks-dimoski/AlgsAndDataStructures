@@ -1,0 +1,16 @@
+BinarySearch:
+  Complexity: O(log(n))
+  Details: I love this algorithm. Personal favorite of mine. It is simple and elegant. The
+    goal is to find an element in an ordered list. This is done by checking if the value
+    being searched for is larger or smaller than the middle element. If the value is larger
+    than the middle element, for example, then this is performed again on the right half of
+    the list. The list is traversed piecewise in this manner, with the part of the array
+    being searched is cut in half with each iteration.
+GoldenMean:
+  Complexity: O(log(n))
+  Details: This works only on unimodal functions/arrays with a 'mountain'. The objective is
+    to find the location of the peak (or the minimum). This works by iterating through the
+    list to identify and shorten a certain search range. There are 4 points in play, with 3
+    being selected in each iteration to generate a new 4th point. The points are selected in
+    a way to remove the outer part of the search range. It operates similarly to binary
+    but is more complex and has a different use case.

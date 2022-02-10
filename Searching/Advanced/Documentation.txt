@@ -1,8 +1,0 @@
-GoldenMean:
-  Complexity: O(log(n))
-  Details: This works only on unimodal functions/arrays with a 'mountain'. The objective is
-    to find the location of the peak (or the minimum). This works by iterating through the
-    list to identify and shorten a certain search range. There are 4 points in play, with 3
-    being selected in each iteration to generate a new 4th point. The points are selected in
-    a way to remove the outer part of the search range. It operates similarly to binary
-    but is more complex and has a different use case.
