@@ -46,11 +46,13 @@ This is a repository designed to be a codebase for a variety of algorithms.
 |       \---<s>Selectionsort</s>
 +---Trees
 |   +---Advanced
+|   |   \---<s>Red-Black Trees</s>
 |   \---Basic
+|       \---<b>Tries</b>
 +---Backtracking
 |   +---Advanced
 |   |   +---<s>Magic Squares</s>
-|   |   \---<s>Sudoku</s>
+|   |   \---<b>Sudoku</b>
 |   \---Basic
 |       \---<s>Boggle</s>
 +---Graph Theory
