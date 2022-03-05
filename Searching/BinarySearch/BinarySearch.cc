@@ -36,7 +36,7 @@ int32_t BinarySearch(vector<int32_t> arr, int32_t val) {
 
 
 int main() {
-  vector<int32_t> arr = {9, 2, 4, 5, 1, 8, 10, 10, 4};
+  vector<int32_t> arr = {9, 2, 1, 3, 4, 5, 8, 10, 10};
   int32_t val;
   cin >> val;
   cout << BinarySearch(arr, val);
