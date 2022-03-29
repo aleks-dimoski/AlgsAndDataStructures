@@ -42,7 +42,7 @@ This is a repository designed to be a codebase for a variety of algorithms.
 |   \---Basic
 |       +---<b>Bubblesort</b>
 |       +---<s>FisherYates</s>
-|       +---<s>Insertionsort</s>
+|       +---<b>Insertionsort</b>
 |       \---<s>Selectionsort</s>
 +---Trees
 |   +---Advanced
