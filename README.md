@@ -33,7 +33,7 @@ This is a repository designed to be a codebase for a variety of algorithms.
 |   +---Advanced
 |   |   \---<s>GoldenMean</s>
 |   \---Basic
-|       \---<s>BinarySearch</s>
+|       \---<b>BinarySearch</b>
 +---Sorting
 |   +---Advanced
 |   |   +---<s>Heapsort</s>
